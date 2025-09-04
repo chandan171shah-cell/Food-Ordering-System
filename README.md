@@ -1,6 +1,6 @@
 # Food-Ordering-System
 import pymongo as py
-Client=py.MongoClient("mongodb://localhost:27017")
+Client=py.MongoClient("mongodb://localhost:27017/")
 database=Client["Project"]
 Collection=database["users"]
 
